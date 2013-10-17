@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget_container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center_vertical"
+	android:orientation="vertical"
+	android:background="@drawable/widget_style">
+	
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/head_style"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:orientation="horizontal">
+		
+	    <ImageView
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+	 		android:src="@drawable/ball">
+		</ImageView>    
+		<TextView
+			android:id="@+id/curr_date"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="25dp"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:gravity="center"
+		 	android:textSize="12sp" >
+		</TextView>
+		<ImageView
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+	 		android:src="@drawable/ball">
+		</ImageView>  
+		
+	</LinearLayout>
+	    
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="9dp"
+		android:layout_marginTop="-5dp"
+		android:orientation="horizontal">
+    
+        <TextView
+			android:id="@+id/date_1"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+		 	android:textSize="12sp" 
+		 	android:textStyle="bold"
+		 	android:textColor="@color/white" >
+		</TextView>
+		<TextView
+			android:id="@+id/text_1"
+	 		android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	 		android:layout_weight="1"
+		 	android:textSize="12sp" 
+		 	android:textColor="@color/white" >
+		</TextView>
+		
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content"
+			android:layout_height="18dp"
+			android:gravity="right"
+			android:layout_marginRight="5dp"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+			
+		<ImageView
+	 		android:id="@+id/flag_11"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="fill_parent"
+	 		android:src="@drawable/black_circle_s">
+	 	</ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="9dp"
+		android:orientation="horizontal">
+    	
+        <TextView
+			android:id="@+id/date_2"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+		 	android:textSize="12sp" 
+		 	android:textStyle="bold"
+		 	android:textColor="@color/white" >
+		</TextView>
+		<TextView
+			android:id="@+id/text_2"
+	 		android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	 		android:layout_weight="1"
+		 	android:textSize="12sp" 
+		 	android:textColor="@color/white" >
+		</TextView>
+		
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content"
+			android:layout_height="18dp"
+			android:gravity="right"
+			android:layout_marginRight="5dp"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+		
+			<ImageView
+		 		android:id="@+id/flag_21"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:src="@drawable/black_circle_s">
+			</ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="9dp"
+		android:orientation="horizontal">
+    	
+        <TextView
+			android:id="@+id/date_3"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+		 	android:textSize="12sp" 
+		 	android:textStyle="bold"
+		 	android:textColor="@color/white" >
+		</TextView>
+		<TextView
+			android:id="@+id/text_3"
+	 		android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	 		android:layout_weight="1"
+			android:textColor="@color/white"
+		 	android:textSize="12sp" >
+		</TextView>
+		
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content"
+			android:layout_height="18dp"
+			android:gravity="right"
+			android:layout_marginRight="5dp"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+		
+			<ImageView
+		 		android:id="@+id/flag_31"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:src="@drawable/black_circle_s">
+			</ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	
+    <LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="9dp"
+		android:orientation="horizontal">
+    
+        <TextView
+			android:id="@+id/date_4"
+	 		android:layout_width="wrap_content"
+	 		android:layout_height="wrap_content"
+		 	android:textSize="12sp" 
+		 	android:textStyle="bold"
+		 	android:textColor="@color/white" >
+		</TextView>
+		<TextView
+			android:id="@+id/text_4"
+	 		android:layout_width="0dp"
+	 		android:layout_height="wrap_content"
+	 		android:layout_weight="1"
+	 		android:textColor="@color/white"
+		 	android:textSize="12sp" >
+		</TextView>
+		
+		<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content"
+			android:layout_height="18dp"
+			android:gravity="right"
+			android:layout_marginRight="5dp"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal">
+		
+			<ImageView
+		 		android:id="@+id/flag_41"
+		 		android:layout_width="wrap_content"
+		 		android:layout_height="wrap_content"
+		 		android:src="@drawable/black_circle_s">
+			</ImageView>
+		</LinearLayout>
+	</LinearLayout>
+    
+    <TextView
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="4dp"
+		android:background="@drawable/bottom_style">
+	</TextView>
+
+</LinearLayout>

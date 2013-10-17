@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:minHeight="146dp"
+android:minWidth="294dp"
+android:updatePeriodMillis="14400000"
+android:initialLayout="@layout/widget_4x2"
+
+android:configure="com.jonnygold.holidays.calendar.WidgetConfigActivity_4x2" 
+/>

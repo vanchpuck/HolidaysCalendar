@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="match_parent"
+ 	android:layout_height="wrap_content"
+ 	android:orientation="horizontal"
+ 	android:background="@color/black" >
+ 	
+ 	
+	<ImageView
+ 		android:id="@+id/ivImg"
+ 		android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:layout_weight="0.75"
+ 		android:src="@drawable/ic_launcher">
+	</ImageView>
+	
+	<TextView
+		android:id="@+id/tvText"
+ 		android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:layout_weight="0.25"
+ 		android:layout_gravity="center_vertical"
+ 		android:layout_marginLeft="10dp"
+		android:text=""
+	 	android:textSize="16sp"
+	 	android:textColor="@color/white" 
+	 	>
+	</TextView>
+	
+	<LinearLayout
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+ 		android:id="@+id/flag_layout"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:layout_gravity="center_vertical"
+ 		android:orientation="vertical">
+	
+		<ImageView
+ 			android:id="@+id/flag_img_1"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:layout_marginRight="2dp">
+		</ImageView>
+		
+		<ImageView
+ 			android:id="@+id/flag_img_2"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:layout_marginRight="2dp">
+		</ImageView>
+		
+		<ImageView
+ 			android:id="@+id/flag_img_3"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:layout_marginRight="2dp">
+		</ImageView>
+		
+	</LinearLayout>
+	
+    
+	
+</LinearLayout>

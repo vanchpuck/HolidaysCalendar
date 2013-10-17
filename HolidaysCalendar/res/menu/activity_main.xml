@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/menu_find" android:title="@string/menu_find" android:icon="@drawable/menu_find" android:visible="true" android:enabled="true" android:orderInCategory="3"/><item android:id="@+id/menu_to_date" android:title="@string/menu_to_date" android:icon="@drawable/menu_to_date" android:visible="true" android:enabled="true" android:orderInCategory="4"></item>
+    
+    
+    
+</menu>
